@@ -140,3 +140,29 @@ J'ai donc dû modifier le fichier pom.xml afin d'utiliser une version compatible
 Au début, j'ai également eu des difficultés pour faire fonctionner correctement le projet dans Eclipse.
 
 Entre l'arborescence créée avec le terminal et la configuration Maven, certains éléments n'étaient pas immédiatement reconnus correctement
+
+## Bilan de ce que j'ai appris 
+
+Ce TP m'a permis de mieux comprendre l'utilité des tests unitaires avec JUnit
+Les tests permettent notamment de :
+
+    Vérifier que ton code fonctionne 
+
+    Détecter les bugs rapidement 
+
+    Tester les cas normaux 
+
+    Tester les cas limites 
+
+    Vérifier que les erreurs provoquent les bonnes exceptions 
+
+    Éviter de devoir vérifier manuellement chaque fonctionnalité après une modification du code.
+
+Les tests m'ont permis de vérifier que les méthodes de mes classes fonctionnent correctement et que les erreurs sont bien gérées.
+
+J'ai aussi appris à mieux utiliser Maven pour gérer les dépendances et exécuter les tests avec la commande `mvn test`.
+
+Enfin, ce TP m'a permis de mettre en pratique Git en réalisant plusieurs commits au fur et à mesure de l'avancement du projet --> versionning
+
+
+
