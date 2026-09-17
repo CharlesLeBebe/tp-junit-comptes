@@ -55,3 +55,24 @@ Je n'ai donc pas utilisé une méthode TDD
 
 Après avoir développé les classes, j'ai créé les tests avec JUnit  afin de vérifier le fonctionnement du programme dans les cas normaux, les cas limites et les cas d'erreur.
 
+
+## Lancer les tests
+
+Le projet utilise Maven pour gérer les dépendances et lancer les tests JUnit 5.
+
+Pour lancer les tests, il faut ouvrir un terminal ,se rendre dans le dossier du projet et lancer la commande
+ :
+
+mvn test
+
+une fois la commande lancée, si tous les tests sont bons, ceci apparait : 
+
+![Image](./image.png)
+
+## Récapitulatif des tests
+
+| Classe de test | Nombre de tests | Tests réalisés |
+|---|---:|---|
+| `CompteBancaireTest` | 11 | Dépôt, retrait, intérêts, découvert, getters et exceptions |
+| `GestionnaireComptesTest` | 8 | Ajout, recherche, doublons, virements, solde total et découvert |
+| **Total** | **19** | **Tests unitaires du projet** |
